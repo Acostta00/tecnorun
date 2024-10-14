@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tecno Run: Expertos en mantenimiento y reparación de dispositivos electrónicos.">
+    <title>Tecno Run - Mantenimiento de Dispositivos Electrónicos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #07f537;
+            padding: 20px;
+            text-align: center;
+            color: black;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-family: 'Georgia', serif;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .banner {
+            background-image: url('https://example.com/banner-electronicos.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            text-align: center;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+        }
+
+        .content {
+            margin: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #c92828;
+            font-size: 2rem;
+            border-bottom: 2px solid #c92828;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .services, .products {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .services div, .products div {
+            width: 30%;
+            padding: 15px;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .services div:hover, .products div:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .services, .products {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .services div, .products div {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tecno Run</h1>
+        <p>Mantenimiento y Reparación de Dispositivos Electrónicos</p>
+    </header>
+
+    <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="banner">
+        <h2>Tu aliado en el mantenimiento de tecnología</h2>
+    </section>
+
+    <div class="content">
+
+        <section id="servicios" class="section">
+            <h2>Servicios</h2>
+            <div class="services">
+                <div>
+                    <h3>Reparación de Smartphones</h3>
+                    <p>Reparamos pantallas, baterías y más. Servicio rápido y garantizado.</p>
+                </div>
+                <div>
+                    <h3>Mantenimiento de Computadoras</h3>
+                    <p>Optimización de sistemas, limpieza interna y cambio de componentes.</p>
+                </div>
+                <div>
+                    <h3>Instalación de Software</h3>
+                    <p>Instalación y actualización de sistemas operativos y aplicaciones.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="productos" class="section">
+            <h2>Productos</h2>
+            <div class="products">
+                <div>
+                    <h3>Baterías de Repuesto</h3>
+                    <p>Baterías originales para smartphones y laptops.</p>
+                </div>
+                <div>
+                    <h3>Accesorios</h3>
+                    <p>Cargadores, protectores de pantalla, fundas y más.</p>
+                </div>
+                <div>
+                    <h3>Partes de Reemplazo</h3>
+                    <p>Componentes de calidad para la reparación de tus dispositivos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2>Contacto</h2>
+            <p>¿Tienes un dispositivo que necesita mantenimiento? <strong>¡Contáctanos!</strong></p>
+            <p>Email: soporte@tecnorun.com | Teléfono: +57 3145934726</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tecno Run. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
